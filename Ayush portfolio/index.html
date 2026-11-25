@@ -1,0 +1,529 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ayush Bajpai | AI & ML Student, Developer and Tech Enthusiast">
+    <title>Ayush Bajpai | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <canvas id="stars"></canvas>
+
+    <div class="cursor-glow"></div>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <a href="#home" class="logo">AB<span>.</span></a>
+
+        <nav id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="mailto:bajpaiayush016@gmail.com" class="nav-btn">
+            Let's Talk ↗
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+            ☰
+        </button>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero section" id="home">
+
+        <div class="hero-content reveal">
+
+            <div class="status">
+                <span class="status-dot"></span>
+                Available for opportunities
+            </div>
+
+            <p class="intro">HELLO, I'M</p>
+
+            <h1>
+                Ayush<br>
+                <span class="gradient-text">Bajpai.</span>
+            </h1>
+
+            <h2 class="hero-role">
+                <span id="typing"></span><span class="typing-cursor">|</span>
+            </h2>
+
+            <p class="hero-description">
+                A Computer Science student exploring the world of Artificial
+                Intelligence, Machine Learning and software development.
+                I love turning ideas into meaningful digital experiences.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    Explore My Work ↗
+                </a>
+
+                <a href="mailto:bajpaiayush016@gmail.com" class="btn btn-outline">
+                    Contact Me
+                </a>
+            </div>
+
+            <div class="socials">
+                <a href="https://github.com/bajpaiayush016"
+                   target="_blank" rel="noopener noreferrer">
+                    GitHub ↗
+                </a>
+
+                <span>•</span>
+
+                <a href="mailto:bajpaiayush016@gmail.com">
+                    Email ↗
+                </a>
+            </div>
+
+        </div>
+
+        <!-- 3D PROFILE -->
+        <div class="hero-visual reveal">
+
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+
+            <div class="floating-tag tag-top">
+                <span class="tag-icon">✦</span> AI & ML
+            </div>
+
+            <div class="floating-tag tag-bottom">
+                <span class="tag-icon">⌘</span> Developer
+            </div>
+
+            <div class="profile-card" id="profileCard">
+
+                <div class="card-top">
+                    <span>PORTFOLIO / 2026</span>
+                    <span class="card-circle"></span>
+                </div>
+
+                <div class="profile-image-wrap">
+                    <img src="assets/profile.jpg"
+                         alt="Ayush Bajpai"
+                         class="profile-image">
+                </div>
+
+                <div class="profile-card-info">
+                    <h3>Ayush Bajpai</h3>
+                    <p>B.Tech · Computer Science</p>
+                    <div class="profile-line"></div>
+                    <span>Artificial Intelligence & Machine Learning</span>
+                </div>
+
+            </div>
+
+            <div class="hero-glow"></div>
+
+        </div>
+
+        <a href="#about" class="scroll-indicator">
+            <span>SCROLL TO EXPLORE</span>
+            <span class="scroll-arrow">↓</span>
+        </a>
+
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+
+        <div class="section-heading reveal">
+            <p class="section-label">01 / ABOUT ME</p>
+            <h2>Curious mind.<br><span class="gradient-text">Creative builder.</span></h2>
+        </div>
+
+        <div class="about-grid">
+
+            <div class="about-text reveal">
+                <p>
+                    I'm <strong>Ayush Bajpai</strong>, a B.Tech Computer Science
+                    student specializing in Artificial Intelligence and Machine
+                    Learning.
+                </p>
+
+                <p>
+                    I'm passionate about programming, building web applications,
+                    exploring AI technologies and solving real-world problems
+                    through technology.
+                </p>
+
+                <p>
+                    Currently learning, experimenting and building projects
+                    that help me grow as a developer.
+                </p>
+
+                <a href="https://github.com/bajpaiayush016"
+                   target="_blank" rel="noopener noreferrer"
+                   class="text-link">
+                    Explore my GitHub <span>↗</span>
+                </a>
+            </div>
+
+            <div class="about-stats reveal">
+
+                <div class="stat-card">
+                    <span class="stat-number">01</span>
+                    <span class="stat-title">AI & ML Student</span>
+                    <span class="stat-description">Learning future technologies</span>
+                </div>
+
+                <div class="stat-card">
+                    <span class="stat-number">03</span>
+                    <span class="stat-title">Hackathon Certificates</span>
+                    <span class="stat-description">Participated in tech events</span>
+                </div>
+
+                <div class="stat-card">
+                    <span class="stat-number">∞</span>
+                    <span class="stat-title">Ideas to Explore</span>
+                    <span class="stat-description">Always learning something new</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section skills" id="skills">
+
+        <div class="section-heading reveal">
+            <p class="section-label">02 / SKILLS</p>
+            <h2>My tech <span class="gradient-text">stack.</span></h2>
+            <p class="section-subtitle">
+                Technologies I work with and continue to explore.
+            </p>
+        </div>
+
+        <div class="skills-grid">
+
+            <div class="skill-card reveal">
+                <div class="skill-icon">⌨</div>
+                <h3>Programming</h3>
+                <div class="skill-tags">
+                    <span>Python</span>
+                    <span>Java</span>
+                    <span>SQL</span>
+                </div>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-icon">◈</div>
+                <h3>Web Development</h3>
+                <div class="skill-tags">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-icon">✳</div>
+                <h3>AI & Data</h3>
+                <div class="skill-tags">
+                    <span>AI / ML Fundamentals</span>
+                    <span>Data Analysis</span>
+                    <span>Python</span>
+                </div>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-icon">⚙</div>
+                <h3>Tools & Platforms</h3>
+                <div class="skill-tags">
+                    <span>Git</span>
+                    <span>GitHub</span>
+                    <span>VS Code</span>
+                    <span>Supabase</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section projects" id="projects">
+
+        <div class="section-heading reveal">
+            <p class="section-label">03 / PROJECTS</p>
+            <h2>Things I've <span class="gradient-text">built.</span></h2>
+        </div>
+
+        <div class="projects-grid">
+
+            <!-- HELPHUB -->
+            <article class="project-card reveal">
+
+                <div class="project-visual project-visual-one">
+                    <div class="project-art">
+                        <span class="art-symbol">✦</span>
+                        <span class="art-name">HelpHub</span>
+                        <span class="art-caption">CONNECT · COLLABORATE</span>
+                    </div>
+                    <span class="project-number">01</span>
+                </div>
+
+                <div class="project-info">
+
+                    <div class="project-meta">
+                        <span class="project-status">PROJECT</span>
+                        <span>Web Development</span>
+                    </div>
+
+                    <h3>HelpHub</h3>
+
+                    <p>
+                        A web-based project designed to bring helpful functionality
+                        together in one place. Built using modern web technologies.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>Web</span>
+                        <span>JavaScript</span>
+                        <span>Supabase</span>
+                    </div>
+
+                    <a href="https://github.com/bajpaiayush016/HelpHub-next"
+                       target="_blank" rel="noopener noreferrer"
+                       class="project-link">
+                        View Repository ↗
+                    </a>
+
+                </div>
+            </article>
+
+            <!-- OPENJARVIS -->
+            <article class="project-card reveal">
+
+                <div class="project-visual project-visual-two">
+                    <div class="jarvis-circle">
+                        <div class="jarvis-inner">AI</div>
+                    </div>
+                    <span class="project-number">02</span>
+                </div>
+
+                <div class="project-info">
+
+                    <div class="project-meta">
+                        <span class="project-status status-progress">IN DEVELOPMENT</span>
+                        <span>AI Project</span>
+                    </div>
+
+                    <h3>OpenJarvis</h3>
+
+                    <p>
+                        An experimental AI assistant exploring conversational AI,
+                        voice interaction, speech input/output and integrations
+                        with local AI models.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>AI</span>
+                        <span>Voice</span>
+                    </div>
+
+                    <a href="https://github.com/bajpaiayush016"
+                       target="_blank" rel="noopener noreferrer"
+                       class="project-link">
+                        Explore GitHub ↗
+                    </a>
+
+                </div>
+            </article>
+
+        </div>
+
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section education" id="education">
+
+        <div class="section-heading reveal">
+            <p class="section-label">04 / EDUCATION</p>
+            <h2>My learning <span class="gradient-text">journey.</span></h2>
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-card">
+                    <span class="timeline-date">CURRENT</span>
+                    <h3>B.Tech — Computer Science Engineering</h3>
+                    <h4>Artificial Intelligence & Machine Learning</h4>
+                    <p>
+                        Developing foundations in computer science,
+                        programming, AI, machine learning and software development.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ACHIEVEMENTS / CERTIFICATES -->
+    <section class="section achievements" id="achievements">
+
+        <div class="section-heading reveal">
+            <p class="section-label">05 / ACHIEVEMENTS</p>
+            <h2>Experiences worth <span class="gradient-text">celebrating.</span></h2>
+            <p class="section-subtitle">
+                Hackathons, teamwork and learning through technology.
+            </p>
+        </div>
+
+        <div class="certificate-grid">
+
+            <!-- SIH -->
+            <article class="certificate-card reveal">
+
+                <div class="certificate-preview cert-sih">
+                    <div class="cert-decoration">SIH</div>
+                    <span class="cert-type">CERTIFICATE</span>
+                    <h3>Smart India<br>Hackathon 2026</h3>
+                    <p>INTERNAL ROUND · SRMU</p>
+                    <span class="cert-view">↗ VIEW CERTIFICATE</span>
+                </div>
+
+                <div class="certificate-info">
+                    <h3>Smart India Hackathon</h3>
+                    <p>Internal Round · Shri Ramswaroop Memorial University</p>
+
+                    <a href="assets/certificates/sih.pdf"
+                       target="_blank"
+                       class="certificate-link">
+                        View Certificate ↗
+                    </a>
+                </div>
+
+            </article>
+
+            <!-- VIVEKA -->
+            <article class="certificate-card reveal">
+
+                <div class="certificate-preview cert-viveka">
+                    <div class="cert-decoration">VIVEKA</div>
+                    <span class="cert-type">CERTIFICATE</span>
+                    <h3>Hack-A-Thon<br>Intelligence 5.0</h3>
+                    <p>18 — 20 FEBRUARY 2026</p>
+                    <span class="cert-view">↗ VIEW CERTIFICATE</span>
+                </div>
+
+                <div class="certificate-info">
+                    <h3>VIVEKA: The Intelligence 5.0</h3>
+                    <p>Techfest 2K26 · SRMU</p>
+
+                    <a href="assets/certificates/viveka.pdf"
+                       target="_blank"
+                       class="certificate-link">
+                        View Certificate ↗
+                    </a>
+                </div>
+
+            </article>
+
+            <!-- SRIJAN -->
+            <article class="certificate-card reveal">
+
+                <div class="certificate-preview cert-srijan">
+                    <div class="cert-decoration">2K26</div>
+                    <span class="cert-type">CERTIFICATE</span>
+                    <h3>SRIJAN<br>Inter College Hackathon</h3>
+                    <p>SRMCEM · LUCKNOW</p>
+                    <span class="cert-view">↗ VIEW CERTIFICATE</span>
+                </div>
+
+                <div class="certificate-info">
+                    <h3>SRIJAN 2K26</h3>
+                    <p>Inter College Hackathon · 13–14 October 2026</p>
+
+                    <a href="assets/certificates/srijan.pdf"
+                       target="_blank"
+                       class="certificate-link">
+                        View Certificate ↗
+                    </a>
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+
+        <div class="contact-box reveal">
+
+            <p class="section-label">06 / CONTACT</p>
+
+            <h2>Have an idea?<br>
+                <span class="gradient-text">Let's connect.</span>
+            </h2>
+
+            <p class="contact-description">
+                I'm always open to learning, collaboration, projects
+                and new opportunities.
+            </p>
+
+            <a href="mailto:bajpaiayush016@gmail.com"
+               class="btn btn-primary contact-btn">
+                Email Me ↗
+            </a>
+
+            <div class="contact-links">
+
+                <a href="https://github.com/bajpaiayush016"
+                   target="_blank" rel="noopener noreferrer">
+                    GitHub ↗
+                </a>
+
+                <a href="mailto:bajpaiayush016@gmail.com">
+                    Email ↗
+                </a>
+
+            </div>
+
+            <div class="contact-email">
+                bajpaiayush016@gmail.com
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#home" class="logo">AB<span>.</span></a>
+
+        <p>Designed & built by Ayush Bajpai</p>
+
+        <p class="footer-copy">
+            © <span id="year"></span> · All rights reserved.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
